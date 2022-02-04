@@ -1,0 +1,28 @@
+@import url(../fonts/rampage.css);
+#wrapper{
+    width: 100%;
+}
+.emar-blueron{
+    background-color: #000;
+    height: 600px;
+    width: 100%;
+}
+.emar-auto{
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+.emar-ava,
+.emar-ava img{
+    object-fit: cover;
+    border-radius: 100%;
+}
+.emar-font{
+    font-family: 'rampage';
+}
+@media only screen and (max-width:435px){
+    .emar-auto{
+        margin: 35px auto;
+        width: 75%;
+    }
+}
